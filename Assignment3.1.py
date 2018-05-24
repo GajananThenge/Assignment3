@@ -8,9 +8,9 @@ and ​the​ ​screenshot​ ​of​ ​the​ ​output.
 
 def division(numerator,denominator):
     try:
-        result = numerator/denominator
+        return numerator/denominator
     except Exception as ZeroDivisionError:
-        print("Denominator can't be zero")
+        return ("Denominator can't be zero")
     except Exception as e:
-        print(e)
-division(5,0)
+        return (e)
+print(division(5,0))
